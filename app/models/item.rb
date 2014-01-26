@@ -5,7 +5,6 @@ class Item < ActiveRecord::Base
   validate :appropriate_traits_for_type 
   
   def appropriate_traits_for_type
-    puts item_traits
     if ! item_traits.respond_to?('keys')
       errors.add(item_traits, "should be a hash or other dictionary like collection")
       return
