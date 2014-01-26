@@ -5,7 +5,7 @@ describe "items/edit" do
     @item = assign(:item, stub_model(Item,
       :name => "MyString",
       :type => "",
-      :attributes => ""
+      :traits => ""
     ))
   end
 
@@ -16,7 +16,7 @@ describe "items/edit" do
     assert_select "form[action=?][method=?]", item_path(@item), "post" do
       assert_select "input#item_name[name=?]", "item[name]"
       assert_select "input#item_type[name=?]", "item[type]"
-      assert_select "input#item_attributes[name=?]", "item[attributes]"
+      assert_select "input#item_traits[name=?]", "item[traits]]"
     end
   end
 end

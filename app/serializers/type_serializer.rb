@@ -1,3 +1,3 @@
 class TypeSerializer < ActiveModel::Serializer
-  attributes :id, :name, :required_attributes, :optional_attributes
+  attributes :id, :name, :required_traits, :optional_traits
 end

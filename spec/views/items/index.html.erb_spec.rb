@@ -6,12 +6,12 @@ describe "items/index" do
       stub_model(Item,
         :name => "Name",
         :type => "",
-        :attributes => ""
+        :traits => ""
       ),
       stub_model(Item,
         :name => "Name",
         :type => "",
-        :attributes => ""
+        :traits => ""
       )
     ])
   end

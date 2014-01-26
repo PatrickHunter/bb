@@ -3,4 +3,4 @@
 Basebox.Item = DS.Model.extend
   name: DS.attr 'string'
   type: DS.attr 'type'
-  attributes: DS.attr 'hash'
+  traits: DS.attr 'hash'

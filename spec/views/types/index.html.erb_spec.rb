@@ -5,13 +5,13 @@ describe "types/index" do
     assign(:types, [
       stub_model(Type,
         :name => "Name",
-        :required_attributes => "",
-        :optional_attributes => ""
+        :required_traits => "",
+        :optional_traits => ""
       ),
       stub_model(Type,
         :name => "Name",
-        :required_attributes => "",
-        :optional_attributes => ""
+        :required_traits => "",
+        :optional_traits => ""
       )
     ])
   end

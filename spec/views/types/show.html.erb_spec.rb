@@ -4,8 +4,8 @@ describe "types/show" do
   before(:each) do
     @type = assign(:type, stub_model(Type,
       :name => "Name",
-      :required_attributes => "",
-      :optional_attributes => ""
+      :required_traits => "",
+      :optional_traits=> ""
     ))
   end
 

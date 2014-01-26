@@ -4,8 +4,8 @@
   <thead>
     <tr>
       <th>Name</th>
-      <th>Required attributes</th>
-      <th>Optional attributes</th>
+      <th>Required traits</th>
+      <th>Optional traits</th>
       <th></th>
       <th></th>
       <th></th>
@@ -16,8 +16,8 @@
     <% @types.each do |type| %>
       <tr>
         <td><%= type.name %></td>
-        <td><%= type.required_attributes %></td>
-        <td><%= type.optional_attributes %></td>
+        <td><%= type.required_traits %></td>
+        <td><%= type.optional_traits %></td>
         <td><%= link_to 'Show', type %></td>
         <td><%= link_to 'Edit', edit_type_path(type) %></td>
         <td><%= link_to 'Destroy', type, method: :delete, data: { confirm: 'Are you sure?' } %></td>

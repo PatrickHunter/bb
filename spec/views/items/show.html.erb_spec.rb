@@ -5,7 +5,7 @@ describe "items/show" do
     @item = assign(:item, stub_model(Item,
       :name => "Name",
       :type => "",
-      :attributes => ""
+      :traits => ""
     ))
   end
 

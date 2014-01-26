@@ -2,5 +2,5 @@
 
 Basebox.Type = DS.Model.extend
   name: DS.attr 'string'
-  requiredAttributes: DS.attr 'set'
-  optionalAttributes: DS.attr 'set'
+  requiredTraits: DS.attr 'set'
+  optionalTraits: DS.attr 'set'
